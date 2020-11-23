@@ -8,7 +8,7 @@ public class Retirement {
         System.out.println("你退休需要多少钱？?");
         double goal = in.nextDouble();
 
-        System.out.println("你每年会捐多少钱?");
+        System.out.println("你每年会增加多少钱?");
         double payment = in.nextDouble();
 
         System.out.println("利率（%）：");
