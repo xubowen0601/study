@@ -17,12 +17,14 @@ public class CompoundInterest
 
 //        set initial balances to 10000
 //        将初始余额设为10000
+//        System.out.println(balances[0].length);
         for (int j = 0; j < balances[0].length; j++)
         {
             balances[0][j] = 10000;
         }
 //        compute interest for future years
 //        计算未来年份的利息
+//        System.out.println(balances.length);
         for (int i = 1; i < balances.length; i++)
         {
             for (int j = 0; j < balances[i].length; j++)
