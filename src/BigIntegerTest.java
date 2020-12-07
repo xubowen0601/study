@@ -19,5 +19,6 @@ public class BigIntegerTest {
             lotteryOdds = lotteryOdds.multiply(BigInteger.valueOf(n - 1 + i)).divide(BigInteger.valueOf(i));
         }
         System.out.println("你中将的几率为1/" + lotteryOdds + ".祝你好运！");
+//        int[] das={16516,5665};
     }
 }
