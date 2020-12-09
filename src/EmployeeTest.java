@@ -63,4 +63,11 @@ class Employee
         salary += raise;
     }
 
+    public static void main(String[] args)  //unit test
+    {
+        Employee e=new Employee("Romeo",50000,2003,3,31);
+        e.raiseSalary(10);
+        System.out.println(e.getName()+" "+e.getSalary());
+    }
+
 }
