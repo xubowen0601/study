@@ -42,6 +42,9 @@ public class LotteryDrawing
         Arrays.sort(result);
         System.out.println("Bet the following combination.It'll make you rich!");
         for (int r : result)
+        {
             System.out.println(r);
+
+        }
     }
 }
