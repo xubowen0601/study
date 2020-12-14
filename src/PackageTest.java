@@ -21,6 +21,7 @@ public class PackageTest
         harry.raiseSalary(5);
 
 //        because of the static import statement,we don't have to use System.out here
+//        由于静态导入语句，我们不必在这里使用System.out
         out.println("name=" + harry.getName()
                 + ",salary=" + harry.getSalary());
     }
