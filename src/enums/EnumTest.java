@@ -1,6 +1,5 @@
 package enums;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 import static java.lang.System.*;
